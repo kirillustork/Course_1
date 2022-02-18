@@ -32,7 +32,11 @@ struct SportCar {
 
 //MARK: - Инициализировать несколько экземпляров структур. Применить к ним различные действия.
     
-    init(carBrand1: String, age1: Int, trunkVolume1: Int, trunkFullness: Int) {
+    init(carBrand1: String,
+         age1: Int,
+         trunkVolume1: Int,
+         trunkFullness: Int)
+    {
         carBrand = carBrand1
         age = age1
         trunkVolume = trunkVolume1
